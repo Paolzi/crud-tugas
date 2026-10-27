@@ -1,8 +1,8 @@
 <?php
 // Konfigurasi Database Azure
-$host = getenv('DB_HOST') ?: 'db-praktikum-syaidan.mysql.database.azure.com';
+$host = getenv('DB_HOST') ?: 'db-praktikum-syaidan1.mysql.database.azure.com';
 $user = getenv('DB_USER') ?: 'syaidanadmin';
-$pass = getenv('DB_PASS') ?: 'password';
+$pass = getenv('DB_PASS') ?: 'password!';
 $db   = getenv('DB_NAME') ?: 'db_mahasiswa';
 
 try {
